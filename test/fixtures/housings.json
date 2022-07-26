@@ -1,0 +1,24 @@
+[
+  {
+    "model": "Housing",
+    "data": {
+      "id": 1,
+      "Name": "Fixture item 1",
+      "Description": "This is fixture item 1.",
+      "PhoneNumber": "This is fixture item 1.",
+      "Address": "This is fixture item 1.",
+      "Email": "This is fixture item 1."
+    }
+  },
+  {
+    "model": "Housing",
+    "data": {
+      "id": 2,
+      "Name": "Fixture item 2",
+      "Description": "This is fixture item 2.",
+      "PhoneNumber": "This is fixture item 2.",
+      "Address": "This is fixture item 2.",
+      "Email": "This is fixture item 2."
+    }
+  }
+]
