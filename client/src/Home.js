@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import Item from './Item';
 function Home() {
   return (
     <main className="container">

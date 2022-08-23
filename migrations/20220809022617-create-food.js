@@ -1,7 +1,7 @@
 'use strict';
 module.exports = {
   async up(queryInterface, Sequelize) {
-    await queryInterface.createTable('Housings', {
+    await queryInterface.createTable('Food', {
       id: {
         allowNull: false,
         autoIncrement: true,
@@ -21,7 +21,7 @@ module.exports = {
         type: Sequelize.TEXT,
       },
       Email: {
-        type: Sequelize.STRING,
+        type: Sequelize.TEXT,
       },
       createdAt: {
         allowNull: false,
@@ -32,9 +32,9 @@ module.exports = {
         type: Sequelize.DATE,
       },
     });
-    await queryInterface.sequelize.query('ALTER SEQUENCE "Housings_id_seq" RESTART WITH 100;');
+    await queryInterface.sequelize.query('ALTER SEQUENCE "Foods_id_seq" RESTART WITH 100;');
   },
   async down(queryInterface, Sequelize) {
-    await queryInterface.dropTable('Housings');
+    await queryInterface.dropTable('Food');
   },
 };
